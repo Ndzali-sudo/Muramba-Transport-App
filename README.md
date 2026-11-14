@@ -1,32 +1,83 @@
-# Muramba Transport App 
+Muramba Transport System
+Muramba Transport System is an Android application developed as part of
+a Work Integrated Learning (WIL) project. It is designed to support
+transport operations by providing access to vehicle, driver, trip and
+booking-related features through a mobile interface.
 
-## 📌 Project Overview
-The **Muramba Transport System** is a mobile Transport Management System (TMS) developed for Muramba Enterprise Solutions. Specifically, this application focuses on the **furniture delivery** sector, helping the business move furniture and large items from one location to another. 
+Project Overview
+The application provides a central dashboard from which users can access
+the available transport-management features. The project is developed
+using Android Studio and Kotlin.
 
-The purpose of this application is to replace manual delivery scheduling and tracking processes with a digital solution, allowing authorised dispatchers to manage delivery vehicles, drivers, and furniture transport trips efficiently.
+Features
+- User authentication: Login screen with Google Sign-In using
+  Firebase Authentication.
+- Registration: A registration screen for new users.
+- Dashboard: Central navigation to the main application sections.
+- Vehicle management: Access to vehicle-related screens and
+  vehicle entry functionality.
+- Driver management: Access to driver-related information.
+- Trip management: Access to trip-related screens.
+- Bookings: A booking screen for transport bookings.
+- Settings: An application settings screen.
 
-This project was developed as part of the **XISD6329/w** module (Task 2).
 
-## 🚀 Features
-*   **Secure Login Screen:** Includes input validation to handle empty fields and invalid emails without crashing.
-*   **Interactive Dashboard:** A clean, user-friendly interface to navigate the app's core features.
-*   **Manage Delivery Vehicles:** View the list of active trucks and vans used for transporting furniture.
-*   **Manage Drivers:** View driver details, including license numbers and availability status for delivery runs.
-*   **Book a Delivery Trip:** A functional screen that allows dispatchers to enter the pickup location (origin) and the drop-off location (destination) for furniture, schedule the delivery, and receive confirmation.
-*   **Settings Menu:** Allows users to toggle notifications and dark mode preferences, as well as log out of the application safely.
+Technologies Used
+- Android Studio
+- Kotlin
+- XML layouts
+- Firebase Authentication
+- Google Sign-In
+- Gradle
 
-## 🛠️ Built With
-*   **Language:** Kotlin
-*   **IDE:** Android Studio
-*   **UI Design:** XML Layouts (Material Design components like CardView)
-*   **Architecture:** Single Activity Architecture (using explicit Intents for navigation)
+  
+Project Structure
+MurambaTransport/
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/com/muramba/murambatransport/
+│           ├── res/
+│           └── AndroidManifest.xml
+├── build.gradle.kts
+└── settings.gradle.kts
 
-## 📱 How to Run the App
-1. Clone this repository to your local machine.
-2. Open the project in **Android Studio**.
-3. Allow Gradle to sync the project.
-4. Connect a physical Android device (ensure USB debugging is enabled) or start an Android Emulator.
-5. Click the **Run** (green play) button in Android Studio to build and install the app.
+
+Requirements
+- Android Studio
+- Android SDK compatible with the project's Gradle configuration
+- JDK compatible with the project's Gradle configuration
+- A configured Firebase project for Google Sign-In
+
+  
+Setup and Run
+1. Clone or download this repository.
+2. Open the project in Android Studio.
+3. Allow Android Studio to sync the Gradle files.
+4. Configure Firebase for your own environment if required. Place the
+   matching google-services.json file in the app/ directory and
+   ensure Google Sign-In is enabled in Firebase Authentication.
+5. Run the application on an Android emulator or a compatible Android
+   device.
+
+   
+Building the Application
+In Android Studio, use Build > Make Project to check the project.
+
+To generate an installable APK, use Build > Generate Signed Bundle /
+APK and select APK. Keep the signing keystore and passwords
+private and backed up securely.
+Repository
+GitHub: https://github.com/Ndzali-sudo/Muramba-Transport-App
+Project Purpose
+The purpose of Muramba Transport System is to demonstrate the
+development of a mobile-based transport management solution as part of
+the WIL project.
+
+
+Author
+Developed for the Muramba Enterprise Solutions / Group Innovation Tech
+project.
 
 
 
@@ -37,7 +88,17 @@ This project was developed as part of the **XISD6329/w** module (Task 2).
 *  sunnyboy
 *  dipuo
 
-## 🔗 Backend API Repository
+App link
+https://github.com/Ndzali-sudo/Muramba-Transport-App.git  
 
-The Node.js/Express backend API developed for this project can be found here: httpa://github.com/Ndzali-sudo/Muramba-Transport-App.git
+website link
+https://github.com/Ndzali-sudo/muramba-transport-system-.git 
+
+Backend API link
+https://muramba-api.onrender.com 
+
+github API
+https://github.com/Ndzali-sudo/muramba-transport-system-api.git
+
+
 

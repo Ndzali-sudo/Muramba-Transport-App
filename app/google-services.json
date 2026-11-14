@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "523661732032",
+    "project_id": "muramba-transport-system",
+    "storage_bucket": "muramba-transport-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523661732032:android:9a8dd15de4d1a9c71a2525",
+        "android_client_info": {
+          "package_name": "com.muramba.murambatransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523661732032-l3tmubdasidht94p1hqsufprmp9cjbk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muramba.murambatransport",
+            "certificate_hash": "0cf4f700ab8783bea5636c6577ae7ad7b3f90848"
+          }
+        },
+        {
+          "client_id": "523661732032-jmrtuqtfufg7qio2p3an9fapinv8te50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPoO-vs3bBwgP9rPxRbNOimHiv09vRKk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523661732032-jmrtuqtfufg7qio2p3an9fapinv8te50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

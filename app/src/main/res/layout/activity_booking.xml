@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MURAMBA TRANSPORT"
+            android:textColor="#1976D2"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Furniture Delivery"
+            android:textColor="#172B4D"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your details to arrange a delivery."
+            android:textColor="#64748B"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPickup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Furniture collection address"
+            android:inputType="textPostalAddress"
+            android:padding="16dp"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery address"
+            android:inputType="textPostalAddress"
+            android:padding="16dp"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Furniture description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="2"
+            android:gravity="top"
+            android:padding="16dp"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSubmitBooking"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Submit Booking"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#1976D2" />
+
+    </LinearLayout>
+
+</ScrollView>
